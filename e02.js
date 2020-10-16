@@ -6,7 +6,7 @@ const sortInsert = (arr) => {
         arr[m + 1] = arr[m]
         m--
       }
-      arr[m+1] = temp
+      arr[m + 1] = temp
     }
     return arr
   }
